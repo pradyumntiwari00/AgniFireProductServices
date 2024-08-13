@@ -2,13 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Navbar from './Components/Navbar';
+import HomePage from './Components/HomePage';
+import Products from './Components/Products';
+import OurServices from './Components/OurServices';
+import Footer from './Components/Footer';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>
+    <Navbar/>
+    <HomePage/>
+    <Products/>
+    <OurServices/>
+    <Footer/>
+    </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

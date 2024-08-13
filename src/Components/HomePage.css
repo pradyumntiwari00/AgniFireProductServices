@@ -1,0 +1,77 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.HomePage{
+    width: 100%;
+    background-color:  #6a6a6a;
+}
+.HomePage img{
+    width: 100%;
+    margin: 0px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.hero-section {
+  text-decoration: none;
+  padding: 2rem 0;
+  height: 100%;
+  
+}
+
+.hero-section_title {
+  font-size: clamp(1rem, 3vw, 2rem);
+  line-height: 1.2;
+  text-align: center;
+  color: lightseagreen;
+}
+.hero-section_cards {
+  padding: 7rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.hero-section_card {
+  min-height: 450px;
+  border-radius: 12px;
+}
+
+.hero-section_card_content {
+  padding: 1.6rem;
+  color: white;
+}
+
+.hero-section_card_title {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 1.6rem;
+}
+
+.hero-section_card.card-1 {
+  background: linear-gradient(to top, RGBA(0,0,0,0), RGBA(0,0,0,0)), url('https://img.freepik.com/free-photo/geometric-vintage-retro-background-ai-generated-image_511042-624.jpg?t=st=1716023167~exp=1716026767~hmac=4fef57bb9a0a07952db1ea795cbd17c7aea316508a4eae2038ab8f2efced6bea&w=1800');
+  background-position: left;
+}
+.hero-section_card.card-2 {
+   background: linear-gradient(to top, RGBA(0,0,0,0), RGBA(0,0,0,0)), url('https://img.freepik.com/premium-photo/man-solid-color-background-with-smile-facial-expression-ai-generated-artwork_781958-2551.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero-section_card.card-3 {
+  background: linear-gradient(to top, RGBA(0,0,0,0.6), RGBA(0,0,0,0.3)), url('https://img.freepik.com/free-photo/abstract-futuristic-background-with-3d-design_1361-3532.jpg?t=st=1716023184~exp=1716026784~hmac=1025df8aa1c270ac44093fa3d242c7d8231b910cd23fd2459ab6398293dee0c0&w=1380');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero-section_card.card-4 {
+  background: linear-gradient(to top, RGBA(0,0,0,0.6), RGBA(0,0,0,0.3)), url('https://img.freepik.com/free-vector/branch-with-leaves_1182-560.jpg?t=st=1716023240~exp=1716026840~hmac=7184a7b2faaf9023111c8d8a6be0e89222903b69054c26f93da2e70168fa70e9&w=900');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero-section_card_description{
+  color: rgb(63, 4, 4);
+}
