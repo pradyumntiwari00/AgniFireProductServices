@@ -7,7 +7,7 @@
 section {
   width: 100%;
   display: inline-block;
-  background: #333;
+  background: #4a4a4a;
   height: 50vh;
   text-align: center;
   font-size: 22px;
@@ -16,7 +16,7 @@ section {
 }
 
 .footer-distributed{
-	background: #666;
+	background: #4a4a4a;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -103,13 +103,15 @@ section {
   font-weight:400;
 	vertical-align: middle;
 	margin:0;
+	font-size: 15px;
 }
 
 .footer-distributed .footer-center p span{
 	display:block;
 	font-weight: normal;
-	font-size:14px;
+	font-size:15px;
 	line-height:2;
+	color: lightseagreen;
 }
 
 .footer-distributed .footer-center p a{
@@ -196,4 +198,7 @@ section {
 		margin-left: 0;
 	}
 
+}
+.footer-left img{
+	height:80px;
 }

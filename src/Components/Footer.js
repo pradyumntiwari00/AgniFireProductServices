@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from './logo.png';
 import './Footer.css'; // Import the CSS file
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarker, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'; // Import solid icons
@@ -10,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="footer-distributed">
       <div className="footer-left">
-        <h3>Company<span>logo</span></h3>
+        <img src={logo} alt="Company Logo" />
         <p className="footer-links">
           <a href="www.google.com" className="link-1">Home</a>
           <a href="www.google.com">Products</a>
@@ -25,6 +26,10 @@ const Footer = () => {
       <div className="footer-center">
         <div>
           <FontAwesomeIcon  icon={faMapMarker} className="fa fa-map-marker"/>
+          <p><span>Head Office:</span> Shop Number 4 Ramnagar Residency
+            <span> Village: Kunta,vadoli,Rohit faliya to morai,welspun colony road</span>
+            <span> Taluka:Vapi</span>
+            <span> District:Valsad,Gujarat</span></p>
           <p><span>Andawa Chauraha</span> Avatar Guest House, Prayagraj</p>
         </div>
         <div className="fa fa-phone">

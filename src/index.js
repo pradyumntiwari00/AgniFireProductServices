@@ -7,6 +7,7 @@ import HomePage from './Components/HomePage';
 import Products from './Components/Products';
 import OurServices from './Components/OurServices';
 import Footer from './Components/Footer';
+import ClientList from './Components/ClientList';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom'
 
@@ -19,6 +20,7 @@ root.render(
     <HomePage/>
     <Products/>
     <OurServices/>
+    <ClientList/>
     <Footer/>
     </BrowserRouter>
 );

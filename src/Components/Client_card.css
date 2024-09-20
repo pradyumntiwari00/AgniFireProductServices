@@ -1,0 +1,55 @@
+
+  .client-list-container {
+    display: flex;
+    justify-content: center;    /* Center horizontally */
+    align-items: center;        /* Center vertically */
+    min-height: 100vh;          /* Full viewport height */
+    flex-direction: column;
+    background-color:  #6a6a6a;
+  }
+  h3 span{
+    align-items: center;
+    color:  lightseagreen;
+    font: normal 36px 'Open Sans', cursive;
+  }
+  h1{
+    color: lightseagreen;
+    margin-bottom: 180px;
+    font-size: 100px;
+  }
+  h3{
+    color: white;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font: normal 36px 'Open Sans', cursive;
+    display: inline;
+    width: 70%;
+  }
+  .client-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+.client-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4a4a4a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(226, 164, 164, 0.1);
+    margin: 20px;
+    transition: transform 0.3s ease;
+    width: 370px;
+    height: 310px;
+  }
+  
+  .client-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .client-logo {
+    object-fit: cover;
+    margin: 6px;
+  }

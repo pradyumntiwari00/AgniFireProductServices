@@ -12,7 +12,7 @@ function Navbar() {
       </div>
       </li>
       <li>
-      <h3 className="h3">AgniFire<span>Services</span></h3>
+      <h3 className="h3">AgniFire<span> Product Service</span></h3>
       </li>
       </ul>
       <ul>

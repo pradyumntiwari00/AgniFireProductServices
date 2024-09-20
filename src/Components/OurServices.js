@@ -8,8 +8,8 @@ const services = [
   { id: 4, name: 'Fire Extinguisher Installation', description: 'Expert installation of fire extinguishers and related equipment.' },
   { id: 5, name: 'Fire Safety Consultation', description: 'Expert advice and consultation on fire safety measures.' },
   { id: 6, name: 'Emergency Response Planning', description: 'Planning and training for effective emergency response.' },
-  { id: 7, name: 'Fire Drill and Evacuation Training', description: 'Hands-on training for fire drills and evacuation procedures.' },
-  { id: 8, name: 'Fire Safety Equipment Testing', description: 'Regular testing of fire safety equipment to ensure functionality.' },
+  { id: 7, name: 'Fire Drill and Evacuation Training', description: 'Hands-on training for fire drills and procedures.' },
+  { id: 8, name: 'Fire Safety Equipment Testing', description: 'Regular testing of equipments to ensure functionality.' },
 ];
 
 function OurServices() {
