@@ -5,10 +5,21 @@
     font-family: Arial, sans-serif;
     background-color:  #6a6a6a;
   }
-  
-  h1 {
-    margin-bottom: 20px;
+  .ServicesIntro{
     color: white;
+    font-size: 40px;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .secondIntro{
+    width: 60%;
+    margin: auto;
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: lightseagreen;
   }
   h2{
     color: lightseagreen;

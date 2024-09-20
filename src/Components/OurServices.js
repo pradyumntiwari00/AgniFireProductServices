@@ -15,7 +15,8 @@ const services = [
 function OurServices() {
   return (
     <div className="OurServices">
-      <h1>Our Services</h1>
+      <div className="ServicesIntro">Your Safety, Our Expertise – Fire Protection Solutions Tailored for You.</div>
+      <div className="secondIntro">Our Services Include</div>
       <div className="service-grid">
         {services.map(service => (
           <div key={service.id} className="service-card">
