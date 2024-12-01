@@ -21,16 +21,30 @@ const Footer = () => {
           <a href="www.google.com">Contact</a>
         </p>
         <p className="footer-company-name">Agni Fire Product Services © 2015</p>
+        <div className="footer-right">
+        <div className="footer-icons">
+          <a href="www.google.com" className="fa fa-facebook"><FontAwesomeIcon icon={faFacebook} /></a>
+          <a href="www.google.com" className="fa fa-twitter"><FontAwesomeIcon icon={faTwitter} /></a>
+          <a href="www.google.com" className="fa fa-linkedin"><FontAwesomeIcon icon={faLinkedin}/></a>
+          <a href="www.google.com" className="fa fa-github"><FontAwesomeIcon icon={faGithub} /></a>
+        </div>
+      </div>
       </div>
 
       <div className="footer-center">
         <div>
           <FontAwesomeIcon  icon={faMapMarker} className="fa fa-map-marker"/>
-          <p><span>Head Office:</span> Shop Number 4 Ramnagar Residency
+          <p><span>Head Office:</span> Ward : 449
+            Sector No. 3, Shantidham
+            <span> Village: Varshamedi</span>
+            <span> Taluka:Anjar</span>
+            <span> District:Kutch,Gujarat</span></p>
+            <p><span>Branch Office:</span> Shop Number 4 Ramnagar Residency
             <span> Village: Kunta,vadoli,Rohit faliya to morai,welspun colony road</span>
             <span> Taluka:Vapi</span>
             <span> District:Valsad,Gujarat</span></p>
-          <p><span>Andawa Chauraha</span> Avatar Guest House, Prayagraj</p>
+          <p><span>Branch Office:</span>
+          <span>Andawa Chauraha</span> Avatar Guest House, Prayagraj</p>
         </div>
         <div className="fa fa-phone">
           <FontAwesomeIcon  icon={faPhone} />
@@ -42,18 +56,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="footer-right">
-        <p className="footer-company-about">
-          <span>About the company</span>
-          Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-        </p>
-        <div className="footer-icons">
-          <a href="www.google.com" className="fa fa-facebook"><FontAwesomeIcon icon={faFacebook} /></a>
-          <a href="www.google.com" className="fa fa-twitter"><FontAwesomeIcon icon={faTwitter} /></a>
-          <a href="www.google.com" className="fa fa-linkedin"><FontAwesomeIcon icon={faLinkedin}/></a>
-          <a href="www.google.com" className="fa fa-github"><FontAwesomeIcon icon={faGithub} /></a>
-        </div>
-      </div>
+     
     </footer>
   );
 };

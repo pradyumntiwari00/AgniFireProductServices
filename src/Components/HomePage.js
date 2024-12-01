@@ -8,7 +8,7 @@ function HomePage() {
      
     <div className="hero-section">
        <div className="container">
-         <h1 className="hero-section_title">Why should you try <span>Agni Fire Product Services</span> to leveling up your startup?</h1>
+         <h1 className="hero-section_title">Why should you try <span>Agni Fire Product Services</span> to level up your organisation's fire safety?</h1>
          <div className="hero-section_cards">
               <div className="hero-section_card card-1">
                   <div className="hero-section_card_content">

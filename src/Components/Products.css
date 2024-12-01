@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 .Products {
-    background-color:  #6a6a6a;
+    background-color:  #f3eded;
     padding: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -18,7 +18,7 @@
       margin:auto;
       margin-top: 50px;
       margin-bottom: 100px;
-      color: white;
+      color: rgb(9, 9, 9);
       font-size: 30px;
       font-family: "Lato";
   }
@@ -34,7 +34,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
-    color: white;
+    color: rgb(9, 9, 9);
     font-size: 30px;
   }
   .productHeading span{

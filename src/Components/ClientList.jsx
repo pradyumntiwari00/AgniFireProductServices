@@ -4,10 +4,6 @@ import './Client_card.css';
 
 const clients = [
   {
-    name: 'Client One',
-    logo: 'https://www.alokind.com/assets/img/logo.svg' // Replace with actual image
-  },
-  {
     name: 'Client Two',
     logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx-egFat6S7KDBI_5jl9EotIhqFs5kz2oQYw&s' // Replace with actual image
   },
